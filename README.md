@@ -2,11 +2,14 @@ reactive-publish
 =====================
 
 Enable server-side reactivity for Meteor.publish
-Depends on package "server-deps"
+Depends on package "peerlibrary:server-autorun"
 
 Replace calls to "Meteor.publish" with "Meteor.reactivePublish" and
 your publish function will be re-run whenever any of its dependencies
 change.
+
+Usage
+======
 
 This package extends "Meteor.Collection.Cursor" to be reactive in
 the same manner as on the client if the options field for any of
