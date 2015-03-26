@@ -1,8 +1,8 @@
 Package.describe({
-  name: "mrt:reactive-publish",
+  name: "cherbst:reactive-publish",
   summary: "Enable server-side reactivity for Meteor.publish",
-  version: "0.1.7",
-  git: "https://github.com/Diggsey/meteor-reactive-publish.git"
+  version: "0.1.8",
+  git: "https://github.com/cherbst/meteor-reactive-publish.git"
 });
 
 Package.on_use(function(api) {
